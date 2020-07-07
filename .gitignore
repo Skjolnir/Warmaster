@@ -77,3 +77,5 @@ Exports/
 
 Plugins/WarmasterBTUtility/Intermediate/
 Plugins/WarmasterBTUtility/Binaries/
+Builds/
+*.txt

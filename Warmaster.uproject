@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.18",
+	"EngineAssociation": "4.25",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -10,6 +10,27 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OculusVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Linux",
+				"Mac"
 			]
 		}
 	]
